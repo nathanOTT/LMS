@@ -1,0 +1,15 @@
+For the front end folder ‘ social ‘ - execute by running npm start
+
+And for the folder ‘ Backend’ , we run by executing - python manage.py runserver.
+
+Unfortunately before being able to run the backend, I have to download the following Django dependencies again as it keeps deleting by default
+
+Firstly - pip install django 
+
+Secondly - pip install djangorestframework
+
+Thirdly - pip install requests
+
+Lastly - pip install django-cors-headers
+
+After all this dependencies download, the code will successfully.
