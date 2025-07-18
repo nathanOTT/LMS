@@ -55,7 +55,7 @@ class AvailableBooksView(APIView):
     then filters out any book whose ISBN is currently borrowed.
     """
     def get(self, request, *args, **kwargs):
-        # Example query: you can adjust your query parameters as needed.
+        # Example query: can adjust query to more limit if needed.
         google_api_url = 'https://www.googleapis.com/books/v1/volumes'
         params = {
             'q': 'subject:fiction',  # or any other query
